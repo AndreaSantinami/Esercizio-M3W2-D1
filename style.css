@@ -1,0 +1,77 @@
+body{
+    background-color: #000000 !important;
+    padding: 5px;
+}
+
+.contenitore_card img , .album img{
+    border-radius: 15px;
+}
+
+main , aside {
+    background-color: #121212;
+    border-radius: 15px;
+    color: white    ;   
+    
+}
+
+
+
+/* .gap {
+    margin: 0 5px; 
+}
+ */
+
+.card{
+    border: none;
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+/* Per risolvere il problema dell'altezza o rimpi i div fino ad arrivare ad occupare lintero schermo o 
+metaquery */
+
+.album{
+    display: flex;
+    margin: 10px;
+}
+
+.album img{
+    margin-right: 10px;
+}
+
+.nome_album{
+    font-size: small;
+}
+
+table{
+    background-color: #121212 !important;
+}
+
+.hr {
+    text-align: center;
+}
+
+
+
+.hr > div:first-child{
+    text-align: left;
+}
+
+.centro{
+    text-align: center;
+}
+
+.bordo{
+    transition: box-shadow 0.6s ease;
+}
+
+.bordo:hover{
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8);
+}
+
+.nascondi{
+    display: none;
+}

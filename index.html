@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   </head>
+   <body>
+      <div id="pag1" class="container-fluid">
+         <div class="row">
+            <!-- Sidebar sinistra -->
+            <aside class="col-sm-2 sidebar gap">
+               <h5>Album</h5>
+               <div class="album bordo sleepMain" onclick="funzionesleep()">
+                  <img class="img-fluid w-25" src="./assets/paper hearts sleep theroy.jpg" alt="">
+                  <div class="artista">
+                     <span>
+                        Sleep Theory 
+                        <p class="nome_album">Paper Hearts</p>
+                     </span>
+                  </div>
+               </div>
+               <div class="album bordo naskaMain">
+                  <img class="img-fluid w-25" src="./assets/Naska-The-Freak-Show_2024.webp" alt="">
+                  <div class="artista">
+                     <span>
+                        Naska 
+                        <p class="nome_album">The Freak Show</p>
+                     </span>
+                  </div>
+               </div>
+               <div class="album bordo fallingMain">
+                  <img class="img-fluid w-25" src="./assets/Falling in reverse Popular Monster.webp" alt="">
+                  <div class="artista">
+                     <span>
+                        Falling in reverse 
+                        <p class="nome_album">Popula Monster</p>
+                     </span>
+                  </div>
+               </div>
+               <div class="album bordo lazzaMain">
+                  <img class="img-fluid w-25" src="./assets/Locura-Lazza.png" alt="">
+                  <div class="artista">
+                     <span>
+                        Lazza 
+                        <p class="nome_album">Locura</p>
+                     </span>
+                  </div>
+               </div>
+            </aside>
+            <!-- Contenuto principale -->
+            <main class="col-sm-8 main-content">
+               <div class="container my-5 contenitore_card ">
+                  <div class="row d-flex justify-content-center">
+                     <!-- Card 1 -->
+                     <div class="col-12 col-md-3 col-lg-2 mb-3 bordo sleepMain">
+                        <div class="card bg-transparent text-secondary ">
+                           <img src="./assets/paper hearts sleep theroy.jpg" class="card-img-top" alt="Card Image">
+                           <div class="card-body">
+                              <h5 class="card-title">Paper Hearts</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Card 2 -->
+                     <div class="col-12 col-md-3 col-lg-2 mb-3 bordo naskaMain">
+                        <div class="card bg-transparent text-secondary ">
+                           <img src="./assets/Naska-The-Freak-Show_2024.webp" class="card-img-top"
+                              alt="Card Image">
+                           <div class="card-body">
+                              <h5 class="card-title">The Freak Show</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Card 3 -->
+                     <div class="col-12 col-md-3 col-lg-2 mb-3 bordo fallingMain">
+                        <div class="card bg-transparent text-secondary">
+                           <img src="./assets/Falling in reverse Popular Monster.webp" class="card-img-top"
+                              alt="Card Image">
+                           <div class="card-body">
+                              <h5 class="card-title">Popular Monster</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Card 4 -->
+                     <div class="col-12 col-md-3 col-lg-2 mb-3 bordo lazzaMain">
+                        <div class="card bg-transparent text-secondary">
+                           <img src="./assets/Locura-Lazza.png" class="card-img-top" alt="Card Image">
+                           <div class="card-body">
+                              <h5 class="card-title">Locura</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </main>
+            <!-- Sidebar destra -->
+            <aside class="col-sm-2 sidebar gap">
+               <h5>Sidebar Destra</h5>
+               <p>Informazioni aggiuntive o pubblicità.</p>
+            </aside>
+         </div>
+      </div>
+      <!-- -------------sleep------------------------------------- -->
+      <div id="sleep" class="container-fluid nascondi">
+      <div class="row">
+      <!-- Sidebar sinistra -->
+      <aside class="col-sm-2 sidebar gap">
+         <h5>Album</h5>
+         <div class="album bordo">
+            <img class="img-fluid w-25" src="./assets/paper hearts sleep theroy.jpg" alt="">
+            <div class="artista">
+               <span>
+                  Sleep Theory 
+                  <p class="nome_album">Paper Hearts</p>
+               </span>
+            </div>
+         </div>
+         <div class="album bordo">
+            <img class="img-fluid w-25" src="./assets/Naska-The-Freak-Show_2024.webp" alt="">
+            <div class="artista">
+               <span>
+                  Naska 
+                  <p class="nome_album">The Freak Show</p>
+               </span>
+            </div>
+         </div>
+         <div class="album bordo">
+            <img class="img-fluid w-25" src="./assets/Falling in reverse Popular Monster.webp" alt="">
+            <div class="artista">
+               <span>
+                  Falling in reverse 
+                  <p class="nome_album">Popula Monster</p>
+               </span>
+            </div>
+         </div>
+         <div class="album bordo">
+            <img class="img-fluid w-25" src="./assets/Locura-Lazza.png" alt="">
+            <div class="artista">
+               <span>
+                  Lazza 
+                  <p class="nome_album">Locura</p>
+               </span>
+            </div>
+         </div>
+      </aside>
+      <!-- Contenuto principale -->
+      <main class="col-sm-8 main-content">
+         <div class="container p-5 my-5 bg-dark text-white row ">
+            <div class="row ">
+               <div class="row">
+                  <div class="d-flex">
+                     <img src="./assets/paper hearts sleep theroy.jpg" class="card-img-top w-25"
+                        alt="Card Image">
+                  </div>
+                  <div>
+                     <h2>Paper Hearts</h2>
+                     <b>Sleep Theroy </b><span>2023 - 6 brani , 21 min 19 sec.</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container my-5 contenitore_card row ">
+            <div class="col-12 row hr">
+               <div class="col-sm-5">
+                  Titolo
+               </div>
+               <div class="col-sm-4">
+                  Riproduzioni
+               </div>
+               <div class="col-sm-3">
+                  Tempo
+               </div>
+            </div>
+            <hr>
+            <div>
+               <div class="row tracklist">
+                  <div class="row bordo">
+                     <div class="col-sm-5 ">
+                        <div>
+                           <div class="album">
+                              <img class="img-fluid w-25" src="./assets/paper hearts sleep theroy.jpg"alt="">
+                              <span>
+                                 Fallout 
+                                 <p class="nome_album">Sleep Theory</p>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-4">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <div class=" artista ">
+                              <p>15.000.000</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" col-sm-3">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <p>3:17</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=" row bordo">
+                     <div class=" col-sm-5">
+                        <div>
+                           <div class="album">
+                              <img class="img-fluid w-25"
+                                 src="./assets/paper hearts sleep theroy.jpg" alt="">
+                              <span>
+                                 Enough 
+                                 <p class="nome_album">Sleep Theory</p>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-4">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <div class=" artista ">
+                              <p>2.900.000</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" col-sm-3">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <p>3:29</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=" row bordo">
+                     <div class=" col-sm-5">
+                        <div>
+                           <div class="album">
+                              <img class="img-fluid w-25"
+                                 src="./assets/paper hearts sleep theroy.jpg"
+                                 alt="">
+                              <span>
+                                 Another Way 
+                                 <p class="nome_album">Sleep Theory
+                                 </p>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-4">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <div class=" artista ">
+                              <p>8.600.000</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" col-sm-3">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <p>3:37</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=" row bordo">
+                     <div class=" col-sm-5">
+                        <div>
+                           <div class="album">
+                              <img class="img-fluid w-25"
+                                 src="./assets/paper hearts sleep theroy.jpg"
+                                 alt="">
+                              <span>
+                                 Gone or Staying 
+                                 <p
+                                    class="nome_album">Sleep Theory
+                                 </p>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-4">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <div class=" artista ">
+                              <p>9.900.000</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" col-sm-3">
+                        <div class="album d-flex justify-content-center align-items-center"">
+                           <p>3:30</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=" row bordo">
+                     <div class=" col-sm-5">
+                        <div>
+                           <div class="album">
+                              src="./assets/paper hearts
+                              sleep theroy.jpg"
+                              alt="">
+                              <span>
+                                 Numb 
+                                 <p
+                                    class="nome_album">
+                                    Sleep Theory
+                                 </p>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>13.000.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:35</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" row bordo">
+                        <div class=" col-sm-5">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    It's
+                                    Over
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>1.900.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:50</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      </main>
+      <!-- Sidebar destra -->
+      <aside class=" col-sm-2 sidebar gap">
+      <h5>Informazioni
+      Artista
+      </h5>
+      <p>In
+      January
+      2023,
+      Sleep
+      Theory's
+      first
+      song
+      ("Another
+      Way")
+      hit
+      500k
+      views on
+      TikTok
+      within
+      36
+      hours of
+      its
+      release.
+      But
+      what
+      seemed
+      like an
+      overnight
+      success
+      was
+      years in
+      the
+      making.
+      Since
+      retiring
+      from the
+      US
+      Army
+      several
+      years
+      ago,
+      vocalist
+      Cullen
+      Moore's
+      dedicated
+      his
+      entire
+      life to
+      carving
+      his
+      own path
+      in
+      the
+      music
+      industry.
+      Officially
+      starting
+      Sleep
+      Theory
+      in 2019,
+      the
+      current
+      incarnation
+      of his
+      musical
+      journey
+      began as
+      a
+      studio
+      project
+      to
+      fuse his
+      love of
+      hard
+      rock,
+      funk
+      and R&B.
+      Now a
+      four-piece
+      band,
+      Sleep
+      Theory's
+      first
+      two
+      tracks
+      both
+      reached
+      #1
+      on
+      SiriusXM's
+      Octane,
+      played
+      their
+      first
+      run of
+      shows
+      to
+      massive
+      crowds,
+      and
+      signed
+      to
+      Epitaph
+      Records
+      for the
+      release
+      of
+      their
+      debut
+      EP.
+      Combining
+      metalcore-like
+      breakdowns
+      with
+      bluesy
+      grooves
+      and
+      a
+      pop
+      sensibility
+      made for
+      modern
+      radio,
+      they've
+      also
+      racked
+      up
+      13M
+      global
+      streams
+      in 6
+      months
+      and
+      saw
+      "Numb"
+      crack
+      the Top
+      40
+      on the
+      Active
+      Rock
+      chart.
+      </p>
+      </aside>
+      </div>
+      </div>
+      <!-- -------------sleep------------------------------------- -->
+      <div id="sleep"
+         class="container-fluid nascondi">
+      <div
+         class="row">
+         <!-- Sidebar sinistra -->
+         <aside
+            class="col-sm-2 sidebar gap">
+            <h5>Album
+            </h5>
+            <div
+               class="album bordo">
+               <img class="img-fluid w-25"
+                  src="./assets/paper hearts sleep theroy.jpg"
+                  alt="">
+               <div
+                  class="artista">
+                  <span>
+                     Sleep
+                     Theory
+                     <p
+                        class="nome_album">
+                        Paper
+                        Hearts
+                     </p>
+                  </span>
+               </div>
+            </div>
+            <div
+               class="album bordo">
+               <img class="img-fluid w-25"
+                  src="./assets/Naska-The-Freak-Show_2024.webp"
+                  alt="">
+               <div
+                  class="artista">
+                  <span>
+                     Naska
+                     <p
+                        class="nome_album">
+                        The
+                        Freak
+                        Show
+                     </p>
+                  </span>
+               </div>
+            </div>
+            <div
+               class="album bordo">
+               <img class="img-fluid w-25"
+                  src="./assets/Falling in reverse Popular Monster.webp"
+                  alt="">
+               <div
+                  class="artista">
+                  <span>
+                     Falling
+                     in
+                     reverse
+                     <p
+                        class="nome_album">
+                        Popula
+                        Monster
+                     </p>
+                  </span>
+               </div>
+            </div>
+            <div
+               class="album bordo">
+               <img class="img-fluid w-25"
+                  src="./assets/Locura-Lazza.png"
+                  alt="">
+               <div
+                  class="artista">
+                  <span>
+                     Lazza
+                     <p
+                        class="nome_album">
+                        Locura
+                     </p>
+                  </span>
+               </div>
+            </div>
+         </aside>
+         <!-- Contenuto principale -->
+         <main
+            class="col-sm-8 main-content">
+            <div
+               class="container p-5 my-5 bg-dark text-white row ">
+               <div
+                  class="row ">
+                  <div
+                     class="row">
+                     <div
+                        class="d-flex">
+                        <img src="./assets/paper hearts sleep theroy.jpg"
+                           class="card-img-top w-25"
+                           alt="Card Image">
+                     </div>
+                     <div>
+                        <h2>Paper
+                           Hearts
+                        </h2>
+                        <b>Sleep
+                        Theroy
+                        </b><span>2023
+                        -
+                        6
+                        brani
+                        ,
+                        21
+                        min
+                        19
+                        sec.</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div
+               class="container my-5 contenitore_card row ">
+               <div
+                  class="col-12 row hr">
+                  <div
+                     class="col-sm-5">
+                     Titolo
+                  </div>
+                  <div
+                     class="col-sm-4">
+                     Riproduzioni
+                  </div>
+                  <div
+                     class="col-sm-3">
+                     Tempo
+                  </div>
+               </div>
+               <hr>
+               <div>
+                  <div
+                     class="row tracklist">
+                     <div
+                        class="row bordo">
+                        <div
+                           class="col-sm-5 ">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    Fallout
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>15.000.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:17</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" row bordo">
+                        <div
+                           class=" col-sm-5">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    Enough
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>2.900.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:29</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" row bordo">
+                        <div
+                           class=" col-sm-5">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    Another
+                                    Way
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>8.600.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:37</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" row bordo">
+                        <div
+                           class=" col-sm-5">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    Gone
+                                    or
+                                    Staying
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>9.900.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:30</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" row bordo">
+                        <div
+                           class=" col-sm-5">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    Numb
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>13.000.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:35</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" row bordo">
+                        <div
+                           class=" col-sm-5">
+                           <div>
+                              <div
+                                 class="album">
+                                 <img class="img-fluid w-25"
+                                    src="./assets/paper hearts sleep theroy.jpg"
+                                    alt="">
+                                 <span>
+                                    It's
+                                    Over
+                                    <p
+                                       class="nome_album">
+                                       Sleep
+                                       Theory
+                                    </p>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div
+                           class="col-sm-4">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <div class=" artista ">
+                                 <p>1.900.000</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class=" col-sm-3">
+                           <div class="album d-flex justify-content-center align-items-center"">
+                              <p>3:50</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </main>
+         <!-- Sidebar destra -->
+         <aside class=" col-sm-2 sidebar gap">
+         <h5>Informazioni
+         Artista
+         </h5>
+         <p>In
+         January
+         2023,
+         Sleep
+         Theory's
+         first
+         song
+         ("Another
+         Way")
+         hit
+         500k
+         views
+         on
+         TikTok
+         within
+         36
+         hours
+         of
+         its
+         release.
+         But
+         what
+         seemed
+         like
+         an
+         overnight
+         success
+         was
+         years
+         in
+         the
+         making.
+         Since
+         retiring
+         from
+         the
+         US
+         Army
+         several
+         years
+         ago,
+         vocalist
+         Cullen
+         Moore's
+         dedicated
+         his
+         entire
+         life
+         to
+         carving
+         his
+         own
+         path
+         in
+         the
+         music
+         industry.
+         Officially
+         starting
+         Sleep
+         Theory
+         in
+         2019,
+         the
+         current
+         incarnation
+         of
+         his
+         musical
+         journey
+         began
+         as
+         a
+         studio
+         project
+         to
+         fuse
+         his
+         love
+         of
+         hard
+         rock,
+         funk
+         and
+         R&B.
+         Now
+         a
+         four-piece
+         band,
+         Sleep
+         Theory's
+         first
+         two
+         tracks
+         both
+         reached
+         #1
+         on
+         SiriusXM's
+         Octane,
+         played
+         their
+         first
+         run
+         of
+         shows
+         to
+         massive
+         crowds,
+         and
+         signed
+         to
+         Epitaph
+         Records
+         for
+         the
+         release
+         of
+         their
+         debut
+         EP.
+         Combining
+         metalcore-like
+         breakdowns
+         with
+         bluesy
+         grooves
+         and
+         a
+         pop
+         sensibility
+         made
+         for
+         modern
+         radio,
+         they've
+         also
+         racked
+         up
+         13M
+         global
+         streams
+         in
+         6
+         months
+         and
+         saw
+         "Numb"
+         crack
+         the
+         Top
+         40
+         on
+         the
+         Active
+         Rock
+         chart.
+         </p>
+         </aside>
+         </div>
+      </div>
+   </body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</html>
